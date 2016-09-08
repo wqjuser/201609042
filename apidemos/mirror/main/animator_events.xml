@@ -1,0 +1,21 @@
+<!-- [ Mirror metadata ] generatedAt: 1473223995950 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/animator_events">
+        <!-- TextView Examples:
+        <startText text="@string/string_resource" />
+        <startText text="Text literal" textSize="14sp" /> -->
+        <startText />
+        <repeatText />
+        <cancelText />
+        <endText />
+        <startTextAnimator />
+        <repeatTextAnimator />
+        <cancelTextAnimator />
+        <endTextAnimator />
+    </_content>
+</screen>

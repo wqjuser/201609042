@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+    设置填充色
+    !-->
+    <solid android:color="@android:color/white" />
+    <!--设置圆角矩形!-->
+    <corners android:radius="10dp" />
+    <!--设置描边!-->
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/holo_blue_bright" />
+    <!--设置渐变色!-->
+    <gradient
+        android:startColor="@android:color/holo_blue_bright"
+        android:endColor="@android:color/holo_blue_dark"
+        android:type="linear"
+        android:angle="90"/>
+
+</shape>
